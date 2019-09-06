@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: blue;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    z-index: -1;
+    background-color: salmon;
+} 
