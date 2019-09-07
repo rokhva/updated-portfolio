@@ -24,13 +24,19 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 10pt; 
     font-weight: 500;
+    padding: 16px;
 }
 
 .about{
    /* display: flex; */
-   margin-left: 20%;
-   margin-right: 20%;
-   margin-top: 10%;
+   /* margin-left: 20%; */
+   /* margin-right: 20%; */
+   padding-top: 8%;
+   /* margin-bottom: 10%; */
+   margin: auto;
+   width: 50%;
+   /* border: 3px solid green; */
+   /* padding: 10px; */
 }
 
 /* .nav-container{
@@ -63,5 +69,15 @@ a{
 
 .projects{
     display: flex;
+    flex-direction: column;
 }
 
+.contact{
+    background-color: grey;
+    height: 980px;
+}
+
+.project-left{
+  display: flex;
+  justify-content: flex-end;
+}
