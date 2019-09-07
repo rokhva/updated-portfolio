@@ -73,7 +73,7 @@ a{
 img{
     padding-right: 64px;
     /* padding-left: 64px; */
-    padding-top: 60px;
+    padding-top: 24px;
     padding-bottom: 60px;
     max-width: 100%;
     max-height: 100%;
@@ -136,17 +136,31 @@ h4{
     /* border: 2px solid salmon; */
     /* justify-content: flex-end; */
     align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
     position: absolute;
-    padding: 24px;
     height: 100%;
+    width: 40%;
 }
 
-#proj-1{
+#proj-1, #git-1{
     margin: 24px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    /* margin-right: 0; */
 }
 
-#git-1{
+/* #git-1{
     margin: 24px;
+} */
+
+.buttons::hover{
+    display: block;
 }
