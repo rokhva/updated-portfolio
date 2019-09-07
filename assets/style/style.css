@@ -81,7 +81,7 @@ img{
 
 .project-left{
     position: relative;
-    /* border: 2px solid salmon; */
+    border: 2px solid salmon;
     display: flex;
 }
 
@@ -124,7 +124,29 @@ h4{
     right: 55px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10pt; 
+    /* font-size: 10pt;  */
+    font-size: .75em;
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+
+.buttons{
+    display:flex;
+    /* border: 2px solid salmon; */
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    padding: 24px;
+    height: 100%;
+}
+
+#proj-1{
+    margin: 24px;
+}
+
+#git-1{
+    margin: 24px;
 }
