@@ -14,7 +14,7 @@
     width: auto;
     margin-top: -2.5em;
     z-index: 2;
-    background-color: salmon;
+    /* background-color: salmon; */
     text-transform: uppercase;
     letter-spacing: 2px;
 
@@ -25,13 +25,18 @@
     font-size: 10pt; 
     font-weight: 500;
     padding: 16px;
+    color: black;
 }
 
 .about{
    padding-top:100px;
    margin: auto;
    width: 60%;
-   padding-bottom:80px;
+   padding-bottom:200px;
+   /* margin-right: 60px; */
+   padding-right: 10%;
+   border-right: 8px solid black;
+   height: 100%;
 }
 
 
@@ -81,8 +86,10 @@ img{
 
 .project-left{
     position: relative;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     display: flex;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
 }
 
 /* .project-image{
@@ -152,9 +159,20 @@ h4{
     border-radius: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 26px;
-    padding-right: 26px;
-    /* margin-right: 0; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#proj-2, #git-2{
+    margin: 24px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* #git-1{
@@ -163,4 +181,9 @@ h4{
 
 .buttons::hover{
     display: block;
+}
+
+.project-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
