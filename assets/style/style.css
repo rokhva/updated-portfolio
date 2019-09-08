@@ -93,6 +93,16 @@ p{
     height: 980px;
     text-decoration: none;
     color: white;
+    
+}
+
+.contact-container{
+   margin: auto;
+   width: 78%;
+   padding-top:200px;
+   /* margin-right: 60px; */
+   padding-bottom: 0;
+   
 }
 
 
@@ -171,7 +181,7 @@ h4{
     width: 40%;
 }
 
-#proj-1, #git-1{
+#proj-1, #git-1,#proj-2, #git-2, #proj-3, #git-3, #proj-4, #git-4{
     margin: 24px;
     width: 100%;
     padding-left: 0;
@@ -184,21 +194,6 @@ h4{
     
 }
 
-#proj-2, #git-2{
-    margin: 24px;
-    width: 100%;
-    padding-left: 0;
-    margin: 0;
-    margin-bottom: 24px;
-    border-radius: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* #git-1{
-    margin: 24px;
-} */
 
 .buttons::hover{
     display: block;

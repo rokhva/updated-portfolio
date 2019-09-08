@@ -14,6 +14,9 @@ $(document).ready(function(){
     });
 });
 
+
+//________________________Click listeners for projects_______________________________//
+
 // opens new tab for trails and tunes project page
 $('#proj-1').click(function() {
     window.open('https://danalittleskier.github.io/ProjectOne/');
@@ -23,6 +26,7 @@ $('#git-1').click(function() {
     window.open('https://github.com/rokhva/ProjectOne');
 });
 
+
 //new tab for sushi trivia
 $('#proj-2').click(function() {
     window.open('https://rokhva.github.io/triviaGame/');
@@ -31,3 +35,22 @@ $('#proj-2').click(function() {
 $('#git-2').click(function() {
     window.open('https://github.com/rokhva/triviaGame');
 });
+
+//new tab for wordguess
+$('#proj-3').click(function() {
+    window.open('https://rokhva.github.io/word-guess-game/');
+});
+//word guess repo
+$('#git-3').click(function() {
+    window.open('https://github.com/rokhva/word-guess-game');
+});
+
+//new tab for train times
+$('#proj-4').click(function() {
+    window.open('https://rokhva.github.io/train-time/');
+});
+//train time repo
+$('#git-4').click(function() {
+    window.open('https://github.com/rokhva/train-time');
+});
+
