@@ -29,12 +29,12 @@
 }
 
 .about{
-   padding-top:100px;
+   /* padding-top:100px; */
    margin: auto;
    width: 60%;
    padding-bottom:200px;
    /* margin-right: 60px; */
-   padding-right: 10%;
+   padding-right: 5%;
    border-right: 8px solid black;
    height: 100%;
 }
@@ -53,12 +53,31 @@
 p{
     font-family: 'Heebo', sans-serif;
     font-weight: 900;
-    font-size: 64pt;
+    font-size: 72pt;
 }
 
-a{
+/* a{
     color:salmon;
+} */
+
+.link{
+    text-decoration: none;
 }
+
+
+.link:hover, .link:visited, .link:link, .link:active
+{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #f2cc8c;
+}
+
+.link{
+    color: #999;
+}
+
 
 .projects{
     display: flex;
@@ -72,6 +91,7 @@ a{
 .contact{
     background-color: grey;
     height: 980px;
+    text-decoration: none;
 }
 
 
