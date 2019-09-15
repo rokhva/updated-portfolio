@@ -54,3 +54,8 @@ $('#git-4').click(function() {
     window.open('https://github.com/rokhva/train-time');
 });
 
+//train time repo
+$('#git-5').click(function() {
+    window.open('https://github.com/rokhva/liri');
+});
+
