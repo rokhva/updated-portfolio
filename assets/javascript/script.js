@@ -59,3 +59,20 @@ $('#git-5').click(function() {
     window.open('https://github.com/rokhva/liri');
 });
 
+//eat the burger
+$('#proj-6').click(function() {
+    window.open('');
+});
+
+$('#git-6').click(function() {
+    window.open('https://github.com/rokhva/eat-the-burger');
+});
+
+//news scraper
+$('#proj-7').click(function() {
+    window.open('https://intense-stream-96798.herokuapp.com/');
+});
+$('#git-7').click(function() {
+    window.open('https://github.com/rokhva/news-scraper');
+});
+
