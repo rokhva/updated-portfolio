@@ -76,3 +76,8 @@ $('#git-7').click(function() {
     window.open('https://github.com/rokhva/news-scraper');
 });
 
+//node sql storefront
+$('#git-8').click(function() {
+    window.open('https://github.com/rokhva/node-sql-storefront');
+});
+
