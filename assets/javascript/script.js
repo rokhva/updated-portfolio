@@ -81,3 +81,8 @@ $('#git-8').click(function() {
     window.open('https://github.com/rokhva/node-sql-storefront');
 });
 
+//clicky game repo
+$('#git-9').click(function() {
+    window.open('https://github.com/rokhva/clicky-game');
+});
+
