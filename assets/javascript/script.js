@@ -86,3 +86,11 @@ $('#git-9').click(function() {
     window.open('https://github.com/rokhva/clicky-game');
 });
 
+//news scraper
+$('#proj-10').click(function() {
+    window.open('http://localbandit.nihaar.io/home');
+});
+$('#git-10').click(function() {
+    window.open('https://github.com/rokhva/updated-portfolio');
+});
+
